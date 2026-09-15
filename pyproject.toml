@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "posebridge-lab"
+version = "0.1.0a1"
+description = "Camera pose debugging workbench and foundation for future game integrations"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "Apache-2.0"
+dynamic = ["dependencies"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[tool.setuptools.packages.find]
+where = ["src"]

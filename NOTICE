@@ -1,0 +1,21 @@
+PoseBridge Lab
+Copyright 2026 PoseBridge Lab contributors
+
+This product includes source adapted from:
+OSR Screen TCode / LexZeon/osr-screen-tcode, local 2.0.0-test.22 baseline.
+Copyright 2026 OSR Screen TCode contributors. Licensed under Apache-2.0.
+Adapted files: stabilizer.py, gpu_runtime.py, gpu_downloads.py, directml_pose.py,
+and corresponding stabilization/GPU regression tests.
+Pose session construction also builds on the original backend architecture.
+Modifications: independent package/runtime/config namespaces; configurable
+observation and smoothing settings; camera-oriented integration and tests.
+
+The original test.22 baseline was a local uncommitted test version. A later
+upstream default branch may differ; do not imply it is the exact source commit.
+
+RTMPose preprocessing, inference interfaces and decoding use Tau-J/rtmlib
+and OpenMMLab MMPose through their public APIs. Their implementations retain
+their upstream licenses; model weights and optional runtimes are not bundled.
+
+The GPU diagnostic uses ONNX Runtime's MIT-licensed tiny arithmetic graph.
+Dependency and design-reference details appear in THIRD_PARTY_NOTICES.md.
