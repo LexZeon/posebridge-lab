@@ -95,3 +95,7 @@ Run Setup.cmd once, then Start.cmd. Detect a system camera, download the 2D mode
 Phone cameras must be exposed as a Windows camera or supply an RTSP/HTTP(S) stream. URLs are session-only. No Bluetooth sensor protocol is implemented. No camera images are automatically recorded, uploaded or included in JSON snapshots. Model/runtime downloads contact their documented upstream hosts only when requested.
 
 The goal is a transparent open-source development project and a foundation for future games. 3D, game integration, retargeting and physical depth are explicitly not validated. See the validation report for tested behavior rather than treating the demo as a benchmark.
+
+## Contact / 联系
+
+Email / 邮箱：[lexzeonstudio@gmail.com](mailto:lexzeonstudio@gmail.com)。

@@ -17,3 +17,7 @@ keep upstream notices; distinguish implemented behavior from future plans.
 
 The project is a learning/research workbench. Contributions to real camera tests,
 latency measurement, person ROI selection and future game adapters are welcome.
+
+## Contact / 联系
+
+Email / 邮箱：[lexzeonstudio@gmail.com](mailto:lexzeonstudio@gmail.com)。
